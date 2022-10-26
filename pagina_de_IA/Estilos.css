@@ -1,0 +1,105 @@
+*{
+    box-sizing:border-box;
+}
+
+nav{
+    float:left;
+    display: flex;
+    flex-wrap: wrap;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin:0%;
+    padding:0%;
+    height: 1px;
+    text-shadow: white 2px 2px 3px;
+}
+nav>p{
+    margin: 20px;
+}
+
+header{
+    padding:0%;
+    margin:0%;
+    display: flex;
+    flex-direction: column;
+    background: url(https://images.pexels.com/photos/50711/board-electronics-computer-data-processing-50711.jpeg?aut);
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;    
+    padding: 32px;
+}
+header>h1{
+    padding: 0px;
+    color: white;
+    width:50%;  
+    text-shadow: black 3px 4px 2px;
+    text-align: center;
+}
+.subtitulo{
+    font-size: 18px;
+}
+
+.section{
+    display: flex;
+    width: 100%;
+    padding: 2%;
+    margin: 0%;
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 2px;
+    height: 900px;
+}
+.noticias{
+
+    display:flex;
+    width:100%;
+    height:15%;
+}
+.noticias>p{
+    width:50%;
+    height: 100%;
+    text-align:center;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.noticias> img{
+    padding: 5px;
+    max-width: 200px;
+    height: 100%
+}
+
+.article{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+}
+.article>p{
+    text-align: justify;
+    padding: 10px;
+}
+@media (max-width: 850px){
+    .section{
+        display:block;
+    }
+    .aside{
+        display: none;
+    }
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+footer >p{
+    margin: 15px;
+    padding: 0%;
+}
